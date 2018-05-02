@@ -28,7 +28,10 @@ class CreateUsersTable extends Migration
             $table->float('normal_hours')->nullable();
             $table->tinyInteger('ot_eligible')->nullable();
             $table->string('phone_no')->nullable();
-            
+            $table->string('city')->nullable();
+            $table->float('state')->nullable();
+            $table->float('country')->nullable();
+            $table->float('postal_code')->nullable();
               
             /** end field addedd **/
             $table->timestamps();
